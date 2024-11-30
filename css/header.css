@@ -1,0 +1,58 @@
+header {
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  overflow-y: hidden;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  color: #658147;
+  font-size: 17.5px;
+  text-wrap: nowrap;
+  transition: 0.2s;
+}
+
+.menu-button:hover {
+  color: #40522c;
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    height: 6vh;
+  }
+
+  .menu-button {
+    font-size: 100%;
+  }
+  
+  header {
+    margin-bottom: 2px;
+  }
+
+  .menu-container::-webkit-scrollbar {
+    width: 1px;
+    height: 2.5px;
+  }
+
+  .menu-container::-webkit-scrollbar-thumb {
+    background: #658147;
+    width: 2px;
+    height: 2px;
+    border-radius: 40px;
+  }
+
+  .menu-container::-webkit-scrollbar-thumb:hover {
+    background: #597445;
+  }
+}

@@ -4,6 +4,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: #597445;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -59,6 +60,6 @@ button {
 @media (max-width: 768px) {
   .section-container h2 {
     font-size: 35px;
-    text-wrap: nowrap;
+    text-wrap: wrap;
   }
 }
