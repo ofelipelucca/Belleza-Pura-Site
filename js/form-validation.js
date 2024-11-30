@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function showError(input, message) {
       const error = document.getElementById("error");
       error.classList.add("error-message");
-      error.style.color = "red";
+      error.style.color = "#ff4338";
       error.style.fontSize = "3vh";
       error.style.marginTop = "1vh";
       error.style.textAlign = "center";
