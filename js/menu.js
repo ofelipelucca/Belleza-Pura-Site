@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   menuButtons.forEach((button) => {
     button.addEventListener("click", function () {
-      const targetSectionId = button.value; 
+      const targetSectionId = button.value;
       const targetSection = document.getElementById(targetSectionId);
 
       if (targetSection) {
         targetSection.scrollIntoView({
-          behavior: "smooth", 
-          block: "start", 
+          behavior: "smooth",
+          block: "start",
         });
       }
     });
