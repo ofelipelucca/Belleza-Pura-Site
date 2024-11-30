@@ -7,8 +7,8 @@
     justify-content: center;
     background: url("../assets/images/background/amazon.png") no-repeat center center/cover;
     overflow: hidden;
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
 
 .hero-section::before {
