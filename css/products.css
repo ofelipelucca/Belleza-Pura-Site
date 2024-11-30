@@ -23,6 +23,10 @@
     transition: 0.2s;
 }
 
+.product:hover {
+    border-radius: 0px;
+}
+
 .product img {
     width: 100%;
     height: auto;
@@ -78,6 +82,10 @@
         width: 100%;
         height: fit-content;
         padding-bottom: 2vh;
+    }
+
+    .product:hover {
+        border-radius: 30px;
     }
 
     .product-infos button {
