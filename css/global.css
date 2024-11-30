@@ -35,3 +35,10 @@ button {
 .section-container h2 {
     font-size: 8vh;
 }
+
+@media (max-width: 768px) {
+    .section-container h2 {
+        font-size: 5vh;
+        text-wrap: nowrap;
+    }
+}

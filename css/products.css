@@ -64,3 +64,15 @@
     background-color: #556D3C;  
     width: 25vh; 
 }
+
+
+@media (max-width: 768px) {
+    #products-section {
+        margin-right: 0vh;
+    }
+    .product {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 2vh;
+    }
+}
