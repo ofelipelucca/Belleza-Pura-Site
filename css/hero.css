@@ -73,7 +73,8 @@
 }
 
 .cta-button {
-    width: 15vw;
+    min-width: fit-content;
+    width: 24vw;
     height: 7vh;
     padding-left: 2vw;
     padding-right: 2vw;

@@ -47,6 +47,7 @@ footer {
 
   .contact-social-media {
     gap: 0.5vw;
+    justify-content: center;
   }
 
   .contact-social-media-item {
