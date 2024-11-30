@@ -1,0 +1,37 @@
+footer {
+    width: 100%;
+    background-color: #40522c;
+    padding: 3vh 0;
+}
+
+#contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-section img {
+    width: 3.5vh;
+}
+
+#contact-section label {
+    font-size: 3vh;
+}
+
+.contact-social-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4vh;
+}
+
+.contact-social-media-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1.2vh;
+    gap: 2vh; 
+    color: #E7F0DC;
+}

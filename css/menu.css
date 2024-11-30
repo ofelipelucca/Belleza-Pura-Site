@@ -1,0 +1,19 @@
+.menu-container {
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    color: #658147;
+    font-size: 2.25vh;
+    transition: 0.2s;
+}
+
+.menu-button:hover {
+    color: #40522c;
+}

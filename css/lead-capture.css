@@ -1,0 +1,91 @@
+#lead-capture-section {
+    height: 105vh;
+    border-top-left-radius: 10vh;
+    background: url("../assets/images/amazon_top.png") no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+
+#lead-capture-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(101, 129, 71, 0.65); 
+    z-index: 1;
+    pointer-events: none; 
+}
+
+#lead-capture-section h2 {
+    position: relative;
+    z-index: 3;
+    color: #E7F0DC;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+    
+.lead-form-container {
+    position: relative;
+    z-index: 2;  
+    padding: 2vh;
+    width: 100%;
+    max-width: 40rem;
+    margin: auto;
+    margin-top: 15vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+.input-field label {
+    font-weight: bold;
+    font-size: 4vh;
+    margin-bottom: 0.5vh;
+}
+
+.input-field input,
+.input-field textarea {
+    padding: 1.5vh;
+    margin-bottom: 3.5vh;
+    font-size: 1.5rem;
+    border: 1px solid #658147;
+    border-radius: 15px;
+    background-color: #E7F0DC;
+    border-color: #556D3C;
+    border-style: solid;
+    border-width: 0.25vh;
+    color: #658147;    
+}
+
+.input-field textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-button {
+    width: 35vh;
+    height: 7vh;
+    background-color: #658147;
+    outline-style: none;
+    border: none;
+    color: #E7F0DC;
+    font-size: 2.25vh;
+    font-weight: bolder;
+    align-self: end;
+    margin-top: 5vh;
+    transition: 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #556D3C;
+}

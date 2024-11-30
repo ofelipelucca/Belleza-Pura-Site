@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Belleza Pura</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/lead-capture.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link
       rel="shortcut icon"
       href="assets/favicon/favicon.ico"
       type="image/x-icon"
     />
-    <script src="js/index.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/form-validation.js"></script>
   </head>
   <body>
     <div class="menu-container">
@@ -51,7 +58,7 @@
     </div>
 
     <div class="section-container" id="products-section">
-      <h2>Nossos Produtos</h2>
+      <h2>Nossa nova linha vegana</h2>
       <div class="products-list">
         <div class="product">
           <img src="assets/images/product_placehold.png" alt="Imagem Produto" />
@@ -155,16 +162,24 @@
             required
           />
 
+          <span id="error"></span>
           <button type="submit" class="submit-button">Quero Fazer Parte</button>
         </form>
       </div>
     </div>
     <footer>
       <div id="contact-section">
-        <h2>Nossas Redes:</h2>
-        <img src="assets/svg_icons/instagram.svg" alt="instagram logo" />
-        <img src="assets/svg_icons/linkedin.svg" alt="linkedin logo" />
-        <img src="assets/svg_icons/email.svg" alt="email icon" />
+        <div class="contact-social-media">
+          <div class="contact-social-media-item">
+            <img src="assets/svg_icons/instagram.svg" alt="instagram logo" /> <label>@BellezaPura</label>
+          </div>
+          <div class="contact-social-media-item">
+            <img src="assets/svg_icons/linkedin.svg" alt="linkedin logo" /> <label>Belleza Pura</label>
+          </div>
+          <div class="contact-social-media-item">
+            <img src="assets/svg_icons/email.svg" alt="email icon" /> <label>contato@bellezapura.com.br</label>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
