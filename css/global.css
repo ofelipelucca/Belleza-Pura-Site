@@ -1,44 +1,63 @@
 body {
-    margin: 0;
-    background-color: #E7F0DC;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #597445;
+  margin: 0;
+  background-color: #e7f0dc;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #597445;
 }
 
 h1 {
-    color: #597445;
-    cursor: default;
+  color: #597445;
+  cursor: default;
 }
 
 h2 {
-    color: #658147;
-    cursor: default;
+  color: #658147;
+  cursor: default;
 }
 
 img {
-    user-select: none;
-    -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 button {
-    border-radius: 50px;
-    cursor: pointer;
-    user-select: none;
+  border-radius: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.5vw;
+  height: 1vh;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #658147;
+  border-radius: 10vh; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #597445;
 }
 
 .section-container {
-    background-color: #FEF2F2;
-    margin-bottom: 5vh;
-    padding: 5vh;
+  background-color: #fef2f2;
+  margin-bottom: 5vh;
+  padding: 5vh;
 }
 
 .section-container h2 {
-    font-size: 8vh;
+  font-size: 8vh;
 }
 
 @media (max-width: 768px) {
-    .section-container h2 {
-        font-size: 5vh;
-        text-wrap: nowrap;
-    }
+  .section-container h2 {
+    font-size: 35px;
+    text-wrap: nowrap;
+  }
 }

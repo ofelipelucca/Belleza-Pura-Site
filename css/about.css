@@ -1,16 +1,16 @@
 #about-section {
   margin-top: 10vh;
-  margin-left: 10vh;
-  padding-right: 0vh;
-  border-top-left-radius: 10vh;
-  border-bottom-left-radius: 10vh;
+  margin-left: 5vw;
+  padding-right: 0vw;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 
 #about-text {
-  font-size: 3.5vh;
-  padding-left: 10vh;
+  font-size: 25px;
+  padding-left: 5vw;
   padding-bottom: 10vh;
-  padding-right: 10vh;
+  padding-right: 5vw;
   text-align: justify;
 }
 
@@ -18,8 +18,8 @@
   background-color: #e7f0dc;
   margin-bottom: 5vh;
   padding: 5vh;
-  border-top-left-radius: 10vh;
-  border-bottom-left-radius: 10vh;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .about-item h3 {
@@ -30,16 +30,15 @@
 }
 
 .about-item p {
-  font-size: 2.5vh;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
   #about-section {
-    margin-left: 0vh;
+    margin-left: 0vw;
   }
 
   #about-text {
-    font-size: 2.5vh;
-    padding-left: 4vh;
+    font-size: 20px;
   }
 }
