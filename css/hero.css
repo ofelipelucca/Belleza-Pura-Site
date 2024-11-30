@@ -123,6 +123,7 @@
 
     .hero-image-container img {
         width: 50%;
+        border-bottom-right-radius: 100px;
     }
 
     .hero-content h1 {
