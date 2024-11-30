@@ -83,4 +83,9 @@
     .product-infos button {
         width: 40vw;
     }
+
+    .product-infos button:hover {
+        background-color: #658147;
+        width: 40vw;
+    }
 }

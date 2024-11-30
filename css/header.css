@@ -36,6 +36,10 @@ header {
     font-size: 100%;
   }
 
+  .menu-button:hover {
+    color: #658147;
+  }
+
   header {
     margin-bottom: 2px;
   }
