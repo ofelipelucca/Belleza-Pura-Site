@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belleza Pura</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <div class="menu-container">
+      <!-- Menu de navegação -->
+      <header>
+        <button class="menu-button" value="hero-section">Início</button>
+        <button class="menu-button" value="products-section">Produtos</button>
+        <button class="menu-button" value="about-section">Sobre</button>
+        <button class="menu-button" value="lead-capture-section">
+          Seja Natural
+        </button>
+        <button class="menu-button" value="contact-section">Contato</button>
+      </header>
+    </div>
+
+    <div class="hero-section">
+      <!-- Hero -->
+      <div class="hero-image-container">
+        <img src="assets/images/makeup_woman.png" alt="Woman Makeup" />
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 id="hero-title">Beleza Natural,<br />Cuidado Consciente</h1>
+          <h2 id="hero-subtitle">
+            Descubra nossos novos cosméticos veganos <br />
+            que respeitam sua pele e o planeta.
+          </h2>
+        </div>
+        <div class="hero-buttons">
+          <button class="cta-button" id="cta-secondary">
+            Sobre a Belleza Pura
+          </button>
+          <button class="cta-button" id="cta-principal">
+            Quero Descobrir o Natural
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-container" id="products-section">
+      <h2>Nossos Produtos</h2>
+      <div class="products-list">
+        <div class="product">
+          <img src="assets/images/product_placehold.png" alt="Imagem Produto" />
+          <div class="product-infos">
+            <h3>Nome Produto</h3>
+            <p>R$ 39,90</p>
+            <div class="product-buy-button-container">
+              <button>COMPRE</button>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <img src="assets/images/product_placehold.png" alt="Imagem Produto" />
+          <div class="product-infos">
+            <h3>Nome Produto</h3>
+            <p>R$ 29,90</p>
+            <div class="product-buy-button-container">
+              <button>COMPRE</button>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <img src="assets/images/product_placehold.png" alt="Imagem Produto" />
+          <div class="product-infos">
+            <h3>Nome Produto</h3>
+            <p>R$ 49,90</p>
+            <div class="product-buy-button-container">
+              <button>COMPRE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-container" id="about-section">
+      <!-- Sobre e Valores -->
+      <h2>Sobre a Belleza Pura</h2>
+      <p id="about-text">
+        Na nossa empresa de cosméticos sustentáveis, acreditamos que beleza e
+        responsabilidade podem andar juntas. Nosso propósito é criar produtos
+        que cuidem de você e do planeta. Cada fórmula é pensada para oferecer
+        resultados incríveis enquanto respeita a natureza e promove práticas
+        conscientes.
+      </p>
+      <div class="about-item">
+        <h3>Sustentabilidade</h3>
+        <p>
+          Utilizamos ingredientes naturais, embalagens recicláveis e processos
+          ecológicos para reduzir o impacto ambiental.
+        </p>
+      </div>
+      <div class="about-item">
+        <h3>Transparência</h3>
+        <p>
+          Compartilhamos cada detalhe sobre a origem dos nossos ingredientes e
+          práticas de fabricação.
+        </p>
+      </div>
+      <div class="about-item">
+        <h3>Cuidado com a Comunidade</h3>
+        <p>
+          Trabalhamos com fornecedores éticos e apoiamos iniciativas sociais.
+        </p>
+      </div>
+      <div class="about-item">
+        <h3>Inovação Natural</h3>
+        <p>
+          Desenvolvemos cosméticos que combinam ciência e natureza para
+          resultados eficazes e saudáveis.
+        </p>
+      </div>
+      <div class="about-item">
+        <h3>Empoderamento</h3>
+        <p>
+          Inspiramos pessoas a fazer escolhas que reflitam seus valores,
+          cuidando do mundo ao redor.
+        </p>
+      </div>
+    </div>
+
+    <div class="section-container" id="lead-capture-section">
+      <!-- Captura de leads -->
+      <h2>Junte-se a Nós no Movimento pelo Natural</h2>
+      <div class="lead-form-container">
+        <form class="input-field">
+          <label for="name">Seu nome:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Digite seu nome aqui"
+            required
+          />
+
+          <label for="email">Seu melhor e-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail aqui"
+            required
+          />
+
+          <button type="submit" class="submit-button">Quero Fazer Parte</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div id="contact-section">
+        <h2>Nossas Redes:</h2>
+        <img src="assets/svg_icons/instagram.svg" alt="instagram logo" />
+        <img src="assets/svg_icons/linkedin.svg" alt="linkedin logo" />
+        <img src="assets/svg_icons/email.svg" alt="email icon" />
+      </div>
+    </footer>
+  </body>
+</html>
