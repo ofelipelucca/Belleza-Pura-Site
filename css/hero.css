@@ -34,7 +34,7 @@
 }
 
 .hero-image-container img {
-    width: 80vh;
+    width: 40vw;
     height: auto;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 40px;
@@ -56,9 +56,13 @@
 }
 
 .hero-content h1 {
-    font-size: 90px;
+    font-size: 6vw;
     font-weight: bolder;
     margin-bottom: 1vh;
+}
+
+.hero-content h2 {
+    font-size: 2vw;
 }
 
 .hero-buttons {
@@ -69,12 +73,15 @@
 }
 
 .cta-button {
-    width: 17vw;
+    width: 15vw;
     height: 7vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
     outline-style: none;
     border: none;
     font-size: 17px;
     font-weight: bolder;
+    text-wrap: nowrap;
     margin-top: 5vh;
     transition: 0.2s;
 }
@@ -100,7 +107,7 @@
     background-color: #c4ccbb;
 }
 
-@media (max-width: 1079px) {
+@media (max-width: 768px) {
     .hero-section {
         width: 100%;
         height: 95vh;
@@ -118,23 +125,23 @@
     }
 
     .hero-content h1 {
-        font-size: 6vh;
+        font-size: 10vw;
     }
 
     .hero-content h2 {
-        font-size: 2.25vh;
+        font-size: 3.5vw;
     }
 
     #cta-principal {
-        width: 30vh;
-        font-size: 2vh;
+        width: fit-content;
+        font-size: 4vw;
         background-color: #e7f0dc;
         color: #658147;
     }
 
     #cta-principal:hover {
-        background-color: #c4ccbb;
-        width: 31vh;
+        width: 40vw;
+        background-color: #e7f0dc;
     }
 
     #cta-secondary {
