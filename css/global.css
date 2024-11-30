@@ -28,8 +28,7 @@ button {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5vw;
-  height: 1vh;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -38,7 +37,9 @@ button {
 
 ::-webkit-scrollbar-thumb {
   background: #658147;
-  border-radius: 10vh; 
+  width: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
 }
 
 ::-webkit-scrollbar-thumb:hover {
