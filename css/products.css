@@ -93,6 +93,9 @@
 
 .product-infos button {
     width: 15vw;
+    min-width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
     height: 7vh;
     background-color: #658147;
     outline-style: none;
@@ -122,7 +125,8 @@
     }
 
     .product-infos button {
-        width: 40vw;
+        max-width: 40vw;
+        min-width: fit-content;
     }
 
     .product-infos button:hover {
