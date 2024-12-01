@@ -14,6 +14,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    backdrop-filter: blur(2px);
     background-color: rgba(101, 129, 71, 0.65);
     z-index: 1;
     pointer-events: none;

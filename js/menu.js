@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const menuButtons = document.querySelectorAll(".menu-button, .cta-button");
+  const menuButtons = document.querySelectorAll(".menu-button, .cta-button, .product-button");
 
   menuButtons.forEach((button) => {
     button.addEventListener("click", function () {
