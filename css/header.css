@@ -12,6 +12,7 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  gap: 2vw;
 }
 
 .menu-button {

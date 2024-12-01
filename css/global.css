@@ -57,6 +57,14 @@ button {
     font-size: 8vh;
 }
 
+.section-p {
+    font-size: 25px;
+    padding-left: 5vw;
+    padding-bottom: 10vh;
+    padding-right: 5vw;
+    text-align: justify;
+}
+
 @media (max-width: 768px) {
     .section-container h2 {
         font-size: 35px;
