@@ -1,11 +1,4 @@
 <div align="center">
-    <img src="https://img.shields.io/website?url=https%3A%2F%2Fofelipelucca.github.io%2FBelleza-Pura-Site%2F" alt="Widget de status do site" />
-</div>
-
-<hl>
-<br><br>
-
-<div align="center">
     <h1>Desafio Landing Page</h1>
 </div>
 
