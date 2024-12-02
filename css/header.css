@@ -4,7 +4,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: end;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .menu-container {
